@@ -1,11 +1,19 @@
-import React from 'react'
+import ClassSchedule from "./components/ClassSchedule";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import PricingPlan from "./components/PricingPlan";
+import Trainer from "./components/Trainer";
 
 const App = () => {
   return (
-    <div className='text-4xl'>
-      Hello world
+    <div>
+      <Navbar />
+      <ClassSchedule />
+      <PricingPlan />
+      <Trainer />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

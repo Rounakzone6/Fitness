@@ -1,3 +1,4 @@
+import team_1 from "./team-1.png";
 import logo from "./logo.svg";
 import schedule_bg from "./schedule_bg.jpg";
 import counter_bg from "./counter_bg.jpg";
@@ -7,6 +8,54 @@ import slider1 from "./slider-1.jpg";
 import course1 from "./courses-1.jpg";
 import course2 from "./courses-2.jpg";
 import course3 from "./courses-3.jpg";
+
+export const assets = {
+    courses1,
+    courses2,
+    courses3,
+    team_1,
+}
+
+export const coursesData = [
+    {
+        image: courses1,
+        title:"Fitness",
+        descreption:"Lorem ipsum dolor sit amet, consetetur thedn bsadipscing elitr, sedsd diam nonumy eirmod tempor invidunt ut labore."
+    },
+    {
+        image: courses2,
+        title:"Body Building",
+        descreption:"Lorem ipsum dolor sit amet, consetetur thedn bsadipscing elitr, sedsd diam nonumy eirmod tempor invidunt ut labore."
+    },
+    {
+        image: courses3,
+        title:"Yoga & Meditation",
+        descreption:"Lorem ipsum dolor sit amet, consetetur thedn bsadipscing elitr, sedsd diam nonumy eirmod tempor invidunt ut labore."
+    },
+]
+
+export const team = [
+    {
+        image:team_1,
+        name:"Aman Yadav",
+        post:"Fitness Trainer & CEO"
+    },
+    {
+        image:team_1,
+        name:"Rounak Gupta",
+        post:"Fitness Trainer"
+    },
+    {
+        image:team_1,
+        name:"Satyam Singh",
+        post:"Fitness"
+    },
+    {
+        image:team_1,
+        name:"Pranjul Jaiswal",
+        post:"Fitness Trainer"
+    },
+]
 
 const classSchedule = [
   {

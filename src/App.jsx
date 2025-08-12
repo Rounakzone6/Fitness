@@ -1,9 +1,13 @@
-import React from 'react'
+import Courses from './components/Courses'
+import Hero from './components/Hero'
+import Team from './components/Team'
 
 const App = () => {
   return (
-    <div className='text-4xl'>
-      Hello world
+    <div>
+      <Hero />
+      <Courses />
+      <Team />
     </div>
   )
 }

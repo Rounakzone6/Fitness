@@ -8,54 +8,60 @@ import slider1 from "./slider-1.jpg";
 import course1 from "./courses-1.jpg";
 import course2 from "./courses-2.jpg";
 import course3 from "./courses-3.jpg";
+import { FaThumbsUp, FaTrophy, FaUsers } from "react-icons/fa";
+import { LuAlarmClock } from "react-icons/lu";
+
 
 export const assets = {
-    courses1,
-    courses2,
-    courses3,
-    team_1,
-}
+  course1,
+  course2,
+  course3,
+  team_1,
+};
 
 export const coursesData = [
-    {
-        image: courses1,
-        title:"Fitness",
-        descreption:"Lorem ipsum dolor sit amet, consetetur thedn bsadipscing elitr, sedsd diam nonumy eirmod tempor invidunt ut labore."
-    },
-    {
-        image: courses2,
-        title:"Body Building",
-        descreption:"Lorem ipsum dolor sit amet, consetetur thedn bsadipscing elitr, sedsd diam nonumy eirmod tempor invidunt ut labore."
-    },
-    {
-        image: courses3,
-        title:"Yoga & Meditation",
-        descreption:"Lorem ipsum dolor sit amet, consetetur thedn bsadipscing elitr, sedsd diam nonumy eirmod tempor invidunt ut labore."
-    },
-]
+  {
+    image: course1,
+    title: "Fitness",
+    descreption:
+      "Lorem ipsum dolor sit amet, consetetur thedn bsadipscing elitr, sedsd diam nonumy eirmod tempor invidunt ut labore.",
+  },
+  {
+    image: course2,
+    title: "Body Building",
+    descreption:
+      "Lorem ipsum dolor sit amet, consetetur thedn bsadipscing elitr, sedsd diam nonumy eirmod tempor invidunt ut labore.",
+  },
+  {
+    image: course3,
+    title: "Yoga & Meditation",
+    descreption:
+      "Lorem ipsum dolor sit amet, consetetur thedn bsadipscing elitr, sedsd diam nonumy eirmod tempor invidunt ut labore.",
+  },
+];
 
 export const team = [
-    {
-        image:team_1,
-        name:"Aman Yadav",
-        post:"Fitness Trainer & CEO"
-    },
-    {
-        image:team_1,
-        name:"Rounak Gupta",
-        post:"Fitness Trainer"
-    },
-    {
-        image:team_1,
-        name:"Satyam Singh",
-        post:"Fitness"
-    },
-    {
-        image:team_1,
-        name:"Pranjul Jaiswal",
-        post:"Fitness Trainer"
-    },
-]
+  {
+    image: team_1,
+    name: "Aman Yadav",
+    post: "Fitness Trainer & CEO",
+  },
+  {
+    image: team_1,
+    name: "Rounak Gupta",
+    post: "Yoga Trainer",
+  },
+  {
+    image: team_1,
+    name: "Sajal Singh",
+    post: "Fitness Trainer",
+  },
+  {
+    image: team_1,
+    name: "Ritesh Giri",
+    post: "Fitness Trainer",
+  },
+];
 
 const classSchedule = [
   {
@@ -150,6 +156,29 @@ const trainer = [
   },
 ];
 
+const statistics = [
+  {
+    logo: FaUsers,
+    counter: 5345,
+    title: "Statisfied Trainee",
+  },
+  {
+    logo: FaThumbsUp,
+    counter: 345,
+    title: "Courses Completed",
+  },
+  {
+    logo: LuAlarmClock,
+    counter: 13,
+    title: "Trainers",
+  },
+  {
+    logo: FaTrophy,
+    counter: 5345,
+    title: "Statisfied Trainee",
+  },
+];
+
 export {
   logo,
   schedule_bg,
@@ -163,4 +192,5 @@ export {
   classSchedule,
   pricingPlan,
   trainer,
+  statistics,
 };

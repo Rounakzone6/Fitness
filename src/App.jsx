@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import PricingPlan from "./components/PricingPlan";
 import Trainer from "./components/Trainer";
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Statistics from "./components/Statistics";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <ClassSchedule />
       <PricingPlan />
       <Trainer />
+      <Contact />
       <Footer />
     </div>
   );

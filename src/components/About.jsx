@@ -4,8 +4,10 @@ import { about } from "../assets";
 const About = () => {
   return (
     <div className="py-10 bg-gray-100 pr-6 relative">
-      <div className="absolute top-20 left-70 z-10 bg-white py-6 px-10">
-        <p className="text-4xl  font-medium">30 YEARS OF EXPERIENCE</p>
+      <div className="absolute md:top-20 top-14 left-5 md:left-70 z-10 bg-white md:py-6 py-2 px-10">
+        <p className="md:text-4xl text-xl font-medium">
+          30 YEARS OF EXPERIENCE
+        </p>
       </div>
       <div className="flex relative gap-6 flex-col md:flex-row">
         <img
@@ -15,7 +17,7 @@ const About = () => {
           src={about}
           alt="About"
         />
-        <div className="mt-35">
+        <div className="md:mt-35 p-4">
           <hr className="w-[6vw] border-t-3 border-red-500" />
           <h2 className="text-4xl font-medium mb-4">Learn More About Us</h2>
           <p>
